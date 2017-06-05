@@ -8,6 +8,13 @@ body {
   padding-left: 73px;
 }
 
+p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 /*------NAVBAR------*/
 
 .navbar-default {
@@ -55,6 +62,7 @@ li {
   top: 30%;
   color: #262626;
   padding: 0;
+  margin-top: 100px;
 }
 
 #home h1 {
@@ -64,13 +72,6 @@ li {
   padding-bottom: 30px;
 }
 
-#home p {
-  font-size: 18px;
-  font-weight: 100;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
 #home button {
   width: 200px;
   font-size: 16px;
@@ -78,4 +79,34 @@ li {
   background-color: #fe6033;
   color: #fff;
   padding: 10px 16px 10px 16px;
+}
+
+/* ------ABOUT US------*/
+
+#about-us {
+  height: 700px;
+  background-color: #00aead;
+  padding: 50px 0 25px 0;
+}
+
+#about-us-text {
+  padding-top: 30px;
+  max-width: 40%;
+  color: #262626;
+  padding-left: 30px;
+}
+
+#about-us-text h2 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 18%;
+}
+
+#about-us-text p {
+  color: #fff;
+}
+
+#about-us-text a {
+  top: 10%;
 }
