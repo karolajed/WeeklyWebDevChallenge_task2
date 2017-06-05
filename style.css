@@ -3,10 +3,10 @@ body {
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
-
+/*
 .container {
   padding-left: 73px;
-}
+}*/
 
 p {
   font-size: 18px;
@@ -21,6 +21,11 @@ p {
   padding-top: 30px;
   margin-bottom: 20px;
   border: none;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 40px;
+  float: right;
 }
 
 .navbar-brand {
@@ -89,19 +94,20 @@ li {
   padding: 50px 0 25px 0;
 }
 
+/*
 #about-us-text {
   padding-top: 30px;
   max-width: 40%;
   color: #262626;
   padding-left: 30px;
-}
-
+}*/
+/*
 #about-us-text h2 {
   color: #fff;
   font-size: 80px;
   font-weight: 700;
   margin-top: 18%;
-}
+}*/
 
 #about-us-text p {
   color: #fff;
