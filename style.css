@@ -5,7 +5,7 @@ body {
 }
 /*
 .container {
-  padding-left: 73px;
+padding-left: 73px;
 }*/
 
 p {
@@ -26,6 +26,7 @@ p {
 .glyphicon-menu-hamburger {
   font-size: 40px;
   float: right;
+  margin: 4px;
 }
 
 
@@ -48,10 +49,15 @@ li {
   margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
+  border-top: 3px solid transparent;
 }
 
 li:hover {
-  border-top: solid 4px #fe6033;
+  border-top: solid 3px #fe6033;
+}
+
+.navbar-collapse {
+  border: none;
 }
 
 /*------HOME------*/
@@ -86,6 +92,10 @@ li:hover {
   padding: 10px 16px 10px 16px;
 }
 
+#home button:hover {
+  background-color: #9a2f10;
+}
+
 /* ------ABOUT US------*/
 
 #about-us {
@@ -96,17 +106,17 @@ li:hover {
 
 /*
 #about-us-text {
-  padding-top: 30px;
-  max-width: 40%;
-  color: #262626;
-  padding-left: 30px;
+padding-top: 30px;
+max-width: 40%;
+color: #262626;
+padding-left: 30px;
 }*/
 /*
 #about-us-text h2 {
-  color: #fff;
-  font-size: 80px;
-  font-weight: 700;
-  margin-top: 18%;
+color: #fff;
+font-size: 80px;
+font-weight: 700;
+margin-top: 18%;
 }*/
 
 #about-us-text p {
