@@ -3,10 +3,10 @@ body {
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
-/*
-.container {
-padding-left: 73px;
-}*/
+
+section {
+  padding: 100px 0;
+}
 
 p {
   font-size: 18px;
@@ -109,20 +109,18 @@ li:hover {
   background-color: #00aead;
   padding: 50px 0 25px 0;
 }
-
-
 #about-us-text {
-padding-top: 30px;
-max-width: 40%;
-color: #262626;
-padding-left: 30px;
+  padding-top: 30px;
+  max-width: 40%;
+  color: #262626;
+  padding-left: 30px;
 }
 
 #about-us-text h2 {
-color: #fff;
-font-size: 80px;
-font-weight: 700;
-margin-top: 18%;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 18%;
 }
 
 #about-us-text p {
@@ -131,4 +129,71 @@ margin-top: 18%;
 
 #about-us-text a {
   top: 10%;
+}
+
+
+/*-----MEDIA-----*/
+
+
+@media (max-width: 991px) {
+  /* about section */
+  #about h2 {
+    margin-top: 0; 
+  }
+  #about h2, #about p {
+    text-align: center;
+  } 
+  #about p {
+    max-width: 100%;
+  }
+}
+
+/* mobile devices */
+@media (max-width: 767px) { 
+  /* general */
+  h2 {
+    font-size: 70px;
+  }	
+  p {
+    font-size: 14px;
+  }
+  /* navbar */
+  .navbar-default {
+    background-color: #ffffff;
+  }	
+  .navbar-default .navbar-nav>li>a {
+    padding: 12px;
+    margin: 0;
+    border: none;
+  }	
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    border: none;
+    color: #fe6033;
+  }	
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #fe6033;
+    border: none;
+  }	
+  .navbar-fixed-top {
+    padding: 10px;
+  }	
+  .navbar-default .navbar-brand {
+    padding-top: 0;
+  }	
+
+  /* header banner */
+  #header-content {
+    padding: 10px;
+  }
+}
+
+/* extra small */
+@media (max-width: 550px) {
+  /* general */
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 13px;
+  }
 }
