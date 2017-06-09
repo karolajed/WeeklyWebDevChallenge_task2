@@ -13,13 +13,19 @@ p {
   font-weight: 100;
   margin-top: 20px;
   margin-bottom: 30px;
+  line-height: 1.6;
 }
 
 /*------NAVBAR------*/
 
+.nav-panel {
+  background-color: #fff;
+  opacity: 0.5;
+}
+
 .navbar-default {
   padding-top: 30px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   border: none;
 }
 
@@ -104,20 +110,20 @@ li:hover {
   padding: 50px 0 25px 0;
 }
 
-/*
+
 #about-us-text {
 padding-top: 30px;
 max-width: 40%;
 color: #262626;
 padding-left: 30px;
-}*/
-/*
+}
+
 #about-us-text h2 {
 color: #fff;
 font-size: 80px;
 font-weight: 700;
 margin-top: 18%;
-}*/
+}
 
 #about-us-text p {
   color: #fff;
