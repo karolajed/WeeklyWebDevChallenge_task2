@@ -1,6 +1,6 @@
 /*------!------*/
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -18,10 +18,6 @@ p {
 
 /*------NAVBAR------*/
 
-.nav-panel {
-  background-color: #fff;
-  opacity: 0.5;
-}
 
 .navbar-default {
   padding-top: 30px;
